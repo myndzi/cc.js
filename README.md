@@ -1,5 +1,8 @@
-# cc.js
-Because all the cool kids add .js to their stuff.
+=======
+cc.js
+=====
+
+Simple credit card validation / type detection with no frills.
 
 ## Purpose
 Validate and/or determine the type of a given credit card number.
@@ -16,9 +19,3 @@ The included regular expressions match Visa, MasterCard, American Express, Diner
 
 ## uccjs
 I also included an even more cut-down version strictly for validation use only. It exposes a global function named `uccjs` which does the same thing as `ccjs.validate`. It only shaves 300 bytes, but hey, that's almost half the size of the thing anyway.
-
-=======
-cc.js
-=====
-
-Simple credit card validation / type detection with no frills.
